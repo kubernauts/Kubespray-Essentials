@@ -2,7 +2,7 @@
 
 ---
 
-Kubespray is an opionated way of deploying kubernetes clusters using Ansible. It supports the following types of kubernetes deployment:
+Kubespray is an opinionated way of deploying kubernetes clusters using Ansible. It supports the following types of infrastructure deployment:
 
 * Baremetal 
 * Virtual Machines \(KVM, Vmware, VirtualBox\)
@@ -11,11 +11,13 @@ Kubespray is an opionated way of deploying kubernetes clusters using Ansible. It
 
 It supports specific linux distribution versions which are Centos 7, Ubuntu 16, Debian Jessie and CoreoS \(Contianer Linux\).
 
-This book is aimed at helping those who are preparing for the Certified Kubernetes Administrator Exam through based on the kubernauts committee efforts, though it can be used as a reference for kubernetes cluster administration generally.
+This book is an effort from the Kubernauts community aimed at helping those who are looking for a way of deploying a kubernetes cluster.
 
-This guide will make use of both kube-spray-cli and native ansible mode of deployment. Both ways are almost the same but as usual variety is the spice of life, whichever you choose, you are guaranteed of getting an awesome kubernetes deployment.
+This guide will make use of the native ansible mode of deployment. 
 
 I hope this adds value to your kubernetes journey.
 
 Get ready for some awesome winds below your kubernaut wings!
+
+Your feedback will be appreciated so that we can together make the learning experience for the community a lot better.
 
