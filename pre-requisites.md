@@ -16,8 +16,8 @@ pip install Jinja2
 
 The following should also be put into consideration:
 
-* **Ansible v2.3 \(or newer\) and python-netaddr is installed on the machine that will run Ansible commands**
-* **Jinja 2.9 \(or newer\) is required to run the Ansible Playbooks**
+* **Ansible v2.3 \(or newer\) and python-netaddr is installed on the machine that will run Ansible commands \(see the previous section above\).**
+* **Jinja 2.9 \(or newer\) is required to run the Ansible Playbooks \(see the previous section above\).**
 * **The target servers must have access to the Internet in order to pull docker images.**
 * **The firewalls are not managed, you'll need to implement your own rules the way you used to. in order to avoid any issue during deployment you should disable your firewall.**
 * **SSH keys of the Ansible deployment system should be exchanged with the cluster nodes \(masters, workers, etcd, ect\). The ssh-copy-id command be used for this purpose or you can inject a generated SSH key into the cluster nodes and then use this on the Ansible node, this should be fairly easy on cloud platforms like Openstack, AWS, etc. This step is crucial so as to enable passwordless login.**
