@@ -3,5 +3,7 @@
 * [Introduction](README.md)
 * [Pre-Requisites](pre-requisites.md)
 * [Deployment Architecture](deployment-architecture.md)
-* [LABs](labs.md)
+* [Preps](labs.md)
+* [Installation](installation.md)
+* [Post-Installation](post-installation.md)
 
