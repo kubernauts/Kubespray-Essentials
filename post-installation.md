@@ -1,4 +1,4 @@
-Post-Installation Verification
+## Post-Installation Verification
 
 Set up auto completion \(am using Bash\):
 

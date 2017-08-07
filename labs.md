@@ -2,11 +2,10 @@
 
 **The following are the steps to initialize the deployment**
 
-**Clone the kubespray repository and change to the kubespray folder on the Ansible system:**
+**Clone the kubespray repository on the Ansible system:**
 
 ```
 git clone https://github.com/kubernetes-incubator/kubespray.git
-cd kubespray
 ```
 
 **Exchange the SSH keys of the cluster nodes with the Ansible system**
