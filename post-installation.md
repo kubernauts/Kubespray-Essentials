@@ -9,7 +9,7 @@ source <(kubectl completion bash)
 Check the cluster status, version via kubemaster node:
 
 ```
-[root@kubemaster ~]# kubectl get no
+[root@kubemaster ~]# kubectl get node
 NAME           STATUS                     AGE       VERSION
 kubemaster     Ready,SchedulingDisabled   26m       v1.6.6+coreos.0-dirty
 nautsworker1   Ready                      26m       v1.6.6+coreos.0-dirty
