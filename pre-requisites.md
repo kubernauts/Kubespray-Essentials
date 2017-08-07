@@ -4,7 +4,15 @@ It is advised that the reader have some basic Linux skills, this will go a long 
 
 Effort should also be made to get a separate system to use as the Ansible deployment server \(this can be a virtual machine\).
 
-The Ansible installation is fairly straight forward, you can use Python PIP module to get a very recent version.
+The Ansible installation is fairly straight forward, you can use Python PIP module to get a very recent version and other dependencies.
+
+```
+pip install ansible
+
+pip install netaddr
+
+pip install Jinja2
+```
 
 The following should also be put into consideration:
 
